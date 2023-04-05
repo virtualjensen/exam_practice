@@ -91,8 +91,8 @@ int main(int ac, char **av)
 				store = is_it_prime(input, divisor);
 				sum += store;
 			}
-		ft_putnbr(sum);
 		}
+		ft_putnbr(sum);
 		write(1, "\n", 1);
 	}
 	ft_putnbr(0);
